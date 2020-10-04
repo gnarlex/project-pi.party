@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Helvetica Neue', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+    color: white;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2em 20px;
+}
+
+footer {
+    color: #888888;
+    padding: 30px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.75em;
+    color: #cccccc
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn-discord {
+    background: #7289DA;
+    transition: all 100ms;
+}
+
+.btn-discord:hover, .btn-discord:focus {
+    filter: brightness(125%);
+}
+
+.nav-link {
+    margin: 0 1.5em;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 600px;
+    font-size: 1.2em;
+}
+
+.main-content .title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.bg-black {
+    background: black;
+}
+
+/* scroll-to hack in order to avoid the navbar hiding content */
+.id-anchor {
+    margin-top: -92px;
+    margin-bottom: 92px
+}
